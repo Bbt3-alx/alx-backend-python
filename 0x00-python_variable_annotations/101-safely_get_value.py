@@ -2,6 +2,9 @@
 """More involved type annotations"""
 
 
+from typing import Mapping
+
+
 def safely_get_value(dct: Mapping, key: Any, default=None):
     """involved type annotations"""
     if key in dct:
