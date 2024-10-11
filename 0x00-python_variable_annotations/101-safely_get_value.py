@@ -2,7 +2,7 @@
 """More involved type annotations"""
 
 
-from typing import Mapping
+from typing import Mapping, Any
 
 
 def safely_get_value(dct: Mapping, key: Any, default=None):
