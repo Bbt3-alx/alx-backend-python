@@ -7,7 +7,7 @@ import random
 import asyncio
 
 
-async def async_generator() -> AsyncGenerator[int, None]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """a coroutine that takes no arguments."""
     for n in range(10):
         rand = random.uniform(0, 10)
